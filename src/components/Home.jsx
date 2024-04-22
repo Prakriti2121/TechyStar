@@ -5,7 +5,7 @@ import {AiFillGoogleCircle,AiFillAmazonCircle,AiFillYoutube,AiFillInstagram} fro
 const Home = () => {
   return  (
 <>
-<div className="home" >
+<div className="home" id="home" >
     <main>
         <h1>
             TechyStar
@@ -23,7 +23,7 @@ const Home = () => {
         </p>
     </div>
   </div>
-  <div className="home3">
+  <div className="home3" id="about">
     <div>
       <h1>Who we are?</h1>
       <p>
@@ -43,7 +43,7 @@ Join us in redefining education, as we inspire a future where every child thrive
   </div>
 
 
-<div className="home4">
+<div className="home4" id="brands">
   <div>
     <h1>Brands</h1>
     <article>
